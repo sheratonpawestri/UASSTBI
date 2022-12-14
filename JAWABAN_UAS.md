@@ -66,11 +66,24 @@ Soal : Perbedaan sistem rekomendasi dan sistem tanya jawab.
 
 == JAWABAN ==
 
+Sistem rekomendasi: Sistem yang memberikan feedback berupa jawaban dari beberapa query yang diinputkan. Query bisa berupa beberapa keyword atau klik tombol pilihan keyword yang ada pada sistem yang kemudian dicari rekomendasinya. Misal pada sistem rekomendasi anime yang akan ditonton. Pada halaman website yang menyediakan anime legal gratis akan menampilkan beberapa genre seperti action, romance, comedy, slice of life, dan lain-lain. Kemudian user akan klik 'comedy' jika ingin menonton anime bergenre comedy kemudian akan muncul beberapa anime yang bergenre comedy.
 
+Sistem tanya jawab: Sistem memberikan feedback berupa jawaban dari query yang biasanya berupa pertanyaan. Sistem tersebut akan mencari jawaban yang ada pada database sistem berdasarkan pertanyaan tersebut. Biasanya dilakukan similarity antar pertanyaan-pertanyaan yang sudah terdapat pada database sistem. 
+Contohnya adalah bot chat. 
+Misal kita bertanya pada bot 'apa kamu sudah makan?' maka bot tersebut akan memproses pertanyaan tersebut dengan menyamakan pertanyaan tersebut dengan yang ada di database bot. Kemudian setelah itu bot bisa menentukan jawaban berdasarkan database yang ada pada bot tersebut. 
+Misal jawaban untuk 'sudah makan belum' adalah 'aku ga makan ga minum.' maka bot akan menampilkan kalimat tersebut. 
+
+Pada penelitian ini, digunakan sistem tanya jawab sehingga jika kita klik suatu keyword kemudian akan muncul informasi yang sesuai dengan keyword tersebut. Dalam penelitian ini digunakan string matching untuk mencocokkan antara query dengan informasi yang diterima.
 
 ====================================================================================
 
 ## NO 4
 a. Soal : rangkuman proyek STBI
 
+
+
+
 b. Soal : Apakah proyek anda termasuk multimedia information retrieval system?
+
+Untuk dataset berupa gambar (multimedia), namun yang dilakukan penelitian ini adalah pencocokan antar teks. oleh karena itu, lebih tepat jika penelitian ini termasuk 
+teks information retrieval system yang mengeluarkan informasi berupa gambar (multimedia).
