@@ -1,7 +1,7 @@
 ## NO 1
 Jelaskan secara detail metode kueri pencarian dan similarity search pada proyek anda.
 
-METODE == 
+== METODE == 
 Metode yang digunakan adalah brute force dalam string matching. 
 Setiap aksara Jawa (20 aksara dasar) dan contoh penggunaannya (contoh dalam kata dan kalimat) akan disimpan dalam bentuk gambar (.jpg). 
 Masing-masing gambar tersebut akan diberi label secara manual sesuai dengan cara baca dari masing-masing aksara Jawa. 
