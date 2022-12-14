@@ -39,7 +39,38 @@ Metode pencocockan (string matching) == Pada penelitian ini digunakan brute forc
 Query pada penelitian ini bertindak sebagai string sedangkan teks yang akan dibandingkan adalah cara baca aksara Jawa.
 
 
-==============================================================================================================================================
+====================================================================================
 
 ## NO 2
-Soal: Metode evaluasi yang digunakan serta jelaskan hasil evaluasi
+Soal : Metode evaluasi yang digunakan serta jelaskan hasil evaluasi
+
+== JAWABAN ==
+
+Sistem ini memberikan hasil pencarian yang bersifat exactly match, karena hasil yang ditampilkan adalah selalu sesuai dengan query dan dataset yang ada. Sehingga evaluasi yang digunakan menjawab pertanyaan 'apakah hasil yang ditampilkan sudah sesuai dengan query yang ditulis?'. Jawabannya iya. Misal saja masukkan query 'ha', maka akan muncul gambar yang sesuai dengan aksara tersebut seperti ha, anak, hanoman, aku mangan tahu, anak polah bapak kepradhah, jer basuki mawa bea, adikku mangan sega, sugeng rawuh ing donya, sampun dhahar acar.
+
+Oleh karena itu, evaluasi juga dilakukan dengan menghitung waktu pencarian. Waktu pencarian dicatat untuk mengetahui waktu yang dibutuhkan untuk proses pencarian setiap query aksara sampai menampilkan hasil yang sesuai. Eksperimen dilakukan dalam tiga percobaan yang berbeda berdasarkan variasi dataset. Percobaan ke-1 menggunakan dataset yang terdiri dari 20 aksara dasar, percobaan ke-2 menggunakan dataset yang terdiri dari 36 data yaitu gabungan 20 aksara dasar dan 16 kata, serta percobaan ke-3 menggunakan dataset yang terdiri dari 51 data yaitu gabungan 20 aksara dasar, 16 kata, dan 15 kalimat.
+
+Pada percobaan ke-1, rata-rata waktu pencarian untuk 20 aksara dasar adalah 0.1403924584 detik.
+
+Pada percobaan ke-2, rata-rata waktu pencarian untuk 36 data adalah 0.4636428356 detik. 
+
+Pada percobaan ke-3, rata-rata waktu pencarian untuk 51 data adalah 1.179515135 detik. 
+
+Berdasarkan percobaan yang dilakukan, diketahui bahwa waktu pencarian berbanding lurus dengan jumlah data yang ada. Semakin banyak jumlah data yang dimiliki, maka waktu pencarian yang dibutuhkan semakin lama. Sedangkan prapemrosesan berupa lowercase diketahui tidak begitu mempengaruhi kecepatan proses pencarian karena berbagai bentuk variasi input yang telah dicoba memberikan hasil waktu pencarian yang cepat dengan perbedaan waktu di bawah 0.1 detik.
+
+
+====================================================================================
+
+## NO 3
+Soal : Perbedaan sistem rekomendasi dan sistem tanya jawab.
+
+== JAWABAN ==
+
+
+
+====================================================================================
+
+## NO 4
+a. Soal : rangkuman proyek STBI
+
+b. Soal : Apakah proyek anda termasuk multimedia information retrieval system?
