@@ -1,0 +1,14 @@
+## NO 1
+Jelaskan secara detail metode kueri pencarian dan similarity search pada proyek anda.
+
+METODE == 
+Metode yang digunakan adalah brute force dalam string matching. 
+Setiap aksara Jawa (20 aksara dasar) dan contoh penggunaannya (contoh dalam kata dan kalimat) akan disimpan dalam bentuk gambar (.jpg). 
+Masing-masing gambar tersebut akan diberi label secara manual sesuai dengan cara baca dari masing-masing aksara Jawa. 
+Misal pada gambar 'ha' akan disimpan ke file gambar bernamakan 'ha.jpg'. 
+Sistem akan menerima query berupa huruf latin dari aksara Jawa. 
+Selanjutnya akan dilakukan prapemrosesan query oleh sistem, lalu query akan dibandingkan dengan label gambar aksara Jawa menggunakan brute force string matching. 
+Brute force string matching adalah algoritma algoritma pencocokan string secara straight forward, 
+yaitu pencarian pola dilakukan secara satu per satu dalam suatu teks dari kiri atau kanan sampai akhir dari string tersebut. 
+Apabila terdapat salah satu karakter dari pola yang tidak sesuai dengan teks, maka pencarian ulang akan dilakukan dari awal pola yang ada. 
+Output dari sistem ini adalah gambar aksara Jawa yang sesuai dengan query. Berikut ini adalah rincian spesifikasi sistem yang dikembangkan.
